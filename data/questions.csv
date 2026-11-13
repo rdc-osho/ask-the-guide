@@ -1,0 +1,49 @@
+id,question,expected_section
+q01,customer is renting the flat and wants a heat pump installed what do I need first,G01
+q02,how long a slot do I need for an install,G01
+q03,can I put a boiler installation in a 2 hour slot,G01
+q04,customer wants to move their appointment to next week is there a charge,G02
+q05,customer cancelling tomorrow's visit do they pay a fee,G02
+q06,how does a customer cancel their whole installation,G02
+q07,how long does a card refund take to show up,G03
+q08,customer wants 400 pounds back can I approve it,G03
+q09,"customer Sarah Jones on 07700 900123 says her card expired, where does the refund go",G03
+q10,what is the minimum length of a rental contract,G04
+q11,customer is selling his house what happens to his rental,G04
+q12,can a renter pay off the rest of the contract early,G04
+q13,how much deposit for buying a boiler outright,G05
+q14,customer asked if I think they can afford the finance what do I say,G05
+q15,how long can finance be spread over,G05
+q16,how long is the parts warranty on a new boiler,G06
+q17,customer missed last year's service is the labour still covered,G06
+q18,how do I log a warranty claim,G06
+q19,old lady has no hot water what do I do,G07
+q20,caller says they can smell gas,G07
+q21,how fast do we send someone for a priority no heat job,G07
+q22,customer is unhappy but I fixed it on the call do I still log a complaint,G08
+q23,what happens if a complaint is not sorted after a few days,G08
+q24,customer's husband just passed away how do I support her on the account,G09
+q25,do vulnerable customers pay the rebooking fee,G09
+q26,what security questions do I ask before talking about an account,G10
+q27,"caller says she is phoning for her dad, email is dad.smith@example.com, can I discuss his account",G10
+q28,customer wants a copy of all the data we hold on them,G10
+q29,the engineer is 45 minutes late and the customer is angry,G11
+q30,engineer will not make it today what can I offer,G11
+q31,how much is a yearly service if they own the boiler,G12
+q32,how long is a service slot,G12
+q33,when should I pass a call to my team leader,G13
+q34,how quickly will a team leader call the customer back,G13
+q35,I booked the wrong date and we lost the sale what now,G14
+q36,who calls back customers we lost through booking mistakes,G14
+q37,customer has a cheaper quote from another company,G15
+q38,how much below our price can I go to match a quote,G15
+q39,how much is a smart thermostat on a rental,G16
+q40,the thermostat app will not connect,G16
+q41,what time does the office canteen close,NONE
+q42,how do I reset my Windows password,NONE
+q43,can I swap my shift with a colleague next Friday,NONE
+q44,what is the company's share price today,NONE
+q45,do we install solar panels,NONE
+q46,how many days of annual leave do I get,NONE
+q47,where do I park at head office,NONE
+q48,can we fit electric car chargers,NONE
