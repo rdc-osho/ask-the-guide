@@ -1,0 +1,14 @@
+{
+  "_note": "All figures are assumptions for a 40-agent team. Change them to match a real team.",
+  "agents": 40,
+  "questions_per_agent_per_day": 4,
+  "working_days": 220,
+  "agent_minutes_waiting": 3,
+  "team_leader_minutes_per_question": 2,
+  "agent_hourly_cost": 15,
+  "team_leader_hourly_cost": 20,
+  "api_cost_per_question": 0.01,
+  "upkeep_hours_per_month": 4,
+  "build_cost": 3000,
+  "minutes_to_fix_wrong_answer": 10
+}
