@@ -1,0 +1,49 @@
+id,split,question,pii_removed,expected,top,score,in_top3,outcome
+q01,dev,customer is renting the flat and wants a heat pump installed what do I need first,,G01,G01,0.173,True,correct_answer
+q02,test,how long a slot do I need for an install,,G01,G01,0.151,True,correct_answer
+q03,test,can I put a boiler installation in a 2 hour slot,,G01,G01,0.265,True,correct_answer
+q04,test,customer wants to move their appointment to next week is there a charge,,G02,G02,0.267,True,correct_answer
+q05,test,customer cancelling tomorrow's visit do they pay a fee,,G02,G02,0.127,True,correct_answer
+q06,dev,how does a customer cancel their whole installation,,G02,G02,0.206,True,correct_answer
+q07,test,how long does a card refund take to show up,,G03,G03,0.203,True,correct_answer
+q08,test,customer wants 400 pounds back can I approve it,,G03,G03,0.152,True,correct_answer
+q09,dev,"customer Sarah Jones on [PHONE] says her card expired, where does the refund go",PHONE,G03,G03,0.252,True,correct_answer
+q10,test,what is the minimum length of a rental contract,,G04,G04,0.254,True,correct_answer
+q11,dev,customer is selling his house what happens to his rental,,G04,G04,0.258,True,correct_answer
+q12,dev,can a renter pay off the rest of the contract early,,G04,G04,0.088,True,correct_answer
+q13,dev,how much deposit for buying a boiler outright,,G05,G05,0.214,True,correct_answer
+q14,test,customer asked if I think they can afford the finance what do I say,,G05,G05,0.293,True,correct_answer
+q15,dev,how long can finance be spread over,,G05,G05,0.21,True,correct_answer
+q16,dev,how long is the parts warranty on a new boiler,,G06,G06,0.435,True,correct_answer
+q17,test,customer missed last year's service is the labour still covered,,G06,G06,0.355,True,correct_answer
+q18,test,how do I log a warranty claim,,G06,G06,0.242,True,correct_answer
+q19,dev,old lady has no hot water what do I do,,G07,G07,0.279,True,correct_answer
+q20,dev,caller says they can smell gas,,G07,G07,0.139,True,correct_answer
+q21,test,how fast do we send someone for a priority no heat job,,G07,G07,0.141,True,correct_answer
+q22,dev,customer is unhappy but I fixed it on the call do I still log a complaint,,G08,G08,0.35,True,correct_answer
+q23,dev,what happens if a complaint is not sorted after a few days,,G08,G08,0.318,True,correct_answer
+q24,test,customer's husband just passed away how do I support her on the account,,G09,G09,0.1,True,correct_answer
+q25,dev,do vulnerable customers pay the rebooking fee,,G09,G09,0.359,True,correct_answer
+q26,test,what security questions do I ask before talking about an account,,G10,G10,0.097,True,correct_answer
+q27,test,"caller says she is phoning for her dad, email is [EMAIL], can I discuss his account",EMAIL,G10,G02,0.074,False,wrong_answer
+q28,dev,customer wants a copy of all the data we hold on them,,G10,G10,0.309,True,correct_answer
+q29,dev,the engineer is 45 minutes late and the customer is angry,,G11,G11,0.349,True,correct_answer
+q30,test,engineer will not make it today what can I offer,,G11,G11,0.233,True,correct_answer
+q31,dev,how much is a yearly service if they own the boiler,,G12,G12,0.251,True,correct_answer
+q32,dev,how long is a service slot,,G12,G12,0.194,True,correct_answer
+q33,test,when should I pass a call to my team leader,,G13,G13,0.275,True,correct_answer
+q34,test,how quickly will a team leader call the customer back,,G13,G13,0.291,True,correct_answer
+q35,test,I booked the wrong date and we lost the sale what now,,G14,G14,0.336,True,correct_answer
+q36,dev,who calls back customers we lost through booking mistakes,,G14,G14,0.221,True,correct_answer
+q37,test,customer has a cheaper quote from another company,,G15,G15,0.223,True,correct_answer
+q38,test,how much below our price can I go to match a quote,,G15,G15,0.421,True,correct_answer
+q39,dev,how much is a smart thermostat on a rental,,G16,G16,0.305,True,correct_answer
+q40,dev,the thermostat app will not connect,,G16,G16,0.351,True,correct_answer
+q41,test,what time does the office canteen close,,NONE,G11,0.117,False,wrong_answer
+q42,dev,how do I reset my Windows password,,NONE,G01,0.0,False,correct_refusal
+q43,test,can I swap my shift with a colleague next Friday,,NONE,G01,0.0,False,correct_refusal
+q44,dev,what is the company's share price today,,NONE,G15,0.243,False,wrong_answer
+q45,test,do we install solar panels,,NONE,G01,0.0,False,correct_refusal
+q46,test,how many days of annual leave do I get,,NONE,G12,0.143,False,wrong_answer
+q47,dev,where do I park at head office,,NONE,G01,0.0,False,correct_refusal
+q48,dev,can we fit electric car chargers,,NONE,G01,0.0,False,correct_refusal

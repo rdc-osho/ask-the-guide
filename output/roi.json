@@ -1,0 +1,30 @@
+{
+  "base": {
+    "questions_per_year": 35200,
+    "answered_by_assistant_share": 0.95,
+    "questions_handled_per_year": 33440,
+    "agent_time_saved_hours": 1672,
+    "team_leader_time_saved_hours": 1114,
+    "gross_saving_gbp": 47373,
+    "running_cost_gbp": 1312,
+    "wrong_answer_share": 0.05,
+    "cost_of_fixing_wrong_answers_gbp": 5866,
+    "net_saving_gbp": 40194,
+    "build_cost_gbp": 3000,
+    "payback_weeks": 3.9
+  },
+  "if_1_question_per_agent_per_day": {
+    "questions_per_year": 8800,
+    "answered_by_assistant_share": 0.95,
+    "questions_handled_per_year": 8360,
+    "agent_time_saved_hours": 418,
+    "team_leader_time_saved_hours": 278,
+    "gross_saving_gbp": 11843,
+    "running_cost_gbp": 1048,
+    "wrong_answer_share": 0.05,
+    "cost_of_fixing_wrong_answers_gbp": 1466,
+    "net_saving_gbp": 9328,
+    "build_cost_gbp": 3000,
+    "payback_weeks": 16.7
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "data_hashes": {
+    "ops_guide.md": "7634debeee1758f8",
+    "questions.csv": "d598676dd8fa59dc",
+    "roi_config.json": "e94b688969b3c520"
+  },
+  "split": {
+    "seed": 7,
+    "dev": 24,
+    "test": 24
+  },
+  "chosen_strategy": "section",
+  "threshold": 0.01,
+  "max_wrong_rate_dev": 0.05,
+  "versions": {
+    "python": "3.13.18",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  }
+}
